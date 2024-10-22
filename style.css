@@ -13,10 +13,85 @@ header{
     background-image: url(img/fundo.png);
     background-size: cover;
     height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .logo {
     font-size: 90px;
+    margin-left: 40px;
 }
 .subtitulo {
     font-size: 36px;
+    margin-left: 40px;
+}
+#nossoProcesso {
+    background-color: #598c38;
+}
+#nossoProcesso .titulo {
+    padding-top: 60px;
+}
+.processo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grupo img {
+    width: 400px;
+}
+.grupo {
+    background-color: white;
+    margin: 50px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 10px;
+    height: 500px;
+}
+p {
+    margin: 15px;
+    font-size: 20px;
+}
+.titulo {
+    color: white;
+    font-size: 60px;
+    margin-left: 50px;
+    font-weight: 400;
+}
+#sobreNos {
+    background-color: #f4f3f3;
+
+}
+#sobreNos .titulo {
+    color: black;
+}
+.divisao h3 {
+    color: #598c38;
+    font-size: 45px;
+    font-weight: 400;
+}
+.divisao p {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: justify;
+}
+.divisao {
+    margin: 50px 60px 50px 60px;
+}
+#sobreNos {
+    padding: 80px 0;
+}
+footer {
+    background-color: #598c38;
+    padding: 80px 0px;
+    color: white;
+}
+footer .titulo {
+    margin-bottom: 25px;
+}
+footer h4 {
+    margin-left: 60px;
+    font-weight: 300;
+    font-size: 30px;
 }
